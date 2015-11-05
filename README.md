@@ -1,5 +1,5 @@
 # Introduction to Programming for Musicians and Digital Artists
-![logo](https://d3f1iyfxxz8i1e.cloudfront.net/courses/course_image/66e5c247d5b2.jpg)
+[![logo](https://d3f1iyfxxz8i1e.cloudfront.net/courses/course_image/66e5c247d5b2.jpg)](https://www.class-central.com/mooc/851/coursera-introduction-to-programming-for-musicians-and-digital-artists)
 
 Cours online COURSERA => [Introduction to Programming for Musicians and Digital Artists](https://www.class-central.com/mooc/851/coursera-introduction-to-programming-for-musicians-and-digital-artists)
 
