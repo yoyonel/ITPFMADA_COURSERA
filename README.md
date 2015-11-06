@@ -19,3 +19,8 @@ Documents traitant de ChucK (Google docs):
   - [Assignment #3: Make Techno](https://docs.google.com/document/d/1kugQuAqmNXx5u_JlMHbm_oVLvhZGl24YHKJYD2-sld4/edit?usp=sharing)
 
 * [Idées, expérimentations, autour du son, génération composition](https://docs.google.com/document/d/10MMvJPNhWmH1D7st80y4uMkqjMfj8xcIGxIrIwgN4Zw/edit?usp=sharing)
+
+# Tools
+
+* [http://superuser.com/questions/276596/play-mp3-or-wav-file-via-linux-command-line](http://superuser.com/questions/276596/play-mp3-or-wav-file-via-linux-command-line)
+  * http://superuser.com/questions/421153/how-to-add-a-mp3-handler-to-sox
