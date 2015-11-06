@@ -1,8 +1,9 @@
 // Title: Assignment_7_La_Bamba
 // initialize.ck
 
-"/media/atty/Seagate Expansion Drive1/__SOUND__/__COURSERA__/Introduction to Programming for Musicians and Digital Artists/Week 7/week 7/Week 7 - La Bamba - Clean" => string me_dir;
+//"/media/atty/Seagate Expansion Drive1/__SOUND__/__COURSERA__/Introduction to Programming for Musicians and Digital Artists/Week 7/week 7/Week 7 - La Bamba - Clean" => string me_dir;
 //"F:/__SOUND__/__COURSERA__/Introduction to Programming for Musicians and Digital Artists/Week 7/week 7/Week 7 - La Bamba - Clean" => string me_dir;
+"." => string me_dir;
 
 // our conductor/beat-timer class
 Machine.add( me_dir + "/BPM.ck" );
