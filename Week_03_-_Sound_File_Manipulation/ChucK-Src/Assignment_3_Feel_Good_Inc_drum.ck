@@ -21,7 +21,8 @@ if( bSaveTheSongInWavFile )
 }
 
 //
-me.dir() + "/audio/" => string path;
+//me.dir() + "/audio/" => string path;
+Std.getenv("CHUCK_DATA_PATH") + "/audio/" => string path;
 
 8 => int NB_MAX_SAMPLES_PER_SEC;
 
@@ -72,7 +73,7 @@ for( 0 => int i; i < NB_MAX_SAMPLES_PER_SEC; i++ )
 1.000 => master_snare.gain;
 0.250 => master_clap.gain;
 //
-0.25 => master.gain;
+0.5*0.14 => master.gain;
 
 0 => int counter;
 

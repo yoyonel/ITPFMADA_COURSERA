@@ -10,7 +10,8 @@ public class CSampleManager
     8 => static int MAX_SAMPLES;
 
 	// path for audio wav files
-    me.dir(-1) + "/audio/" => string path_audio;
+    //me.dir(-1) + "/audio/" => string path_audio;
+    Std.getenv("CHUCK_DATA_PATH") + "/audio/" => string path_audio;
 
 	
 	// array to store the name of the samples

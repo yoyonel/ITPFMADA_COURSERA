@@ -408,7 +408,9 @@ fun void init_constants_for_assigment_number_4()
 */
 fun void init_Drum()
 {
-	Std.getenv( "CHUCK_AUDIO_PATH" ) + "/audio/" => string path;
+	//Std.getenv( "CHUCK_AUDIO_PATH" ) + "/audio/" => string path;
+	Std.getenv( "CHUCK_DATA_PATH" ) + "/audio/" => string path;
+
 	for( 0 => int i; i < NB_MAX_SAMPLES_PER_SEC; i++ )
 	{
 		kick[i] => master_kick;

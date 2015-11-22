@@ -156,7 +156,8 @@ bar_3_1_NotesValues_FeelGoodInc @=> float bar_3_3_NotesValues_FeelGoodInc[];
 
 // ------------------------------------------------------------------
 // ------------------------------------------------------------------
-Std.getenv( "CHUCK_AUDIO_PATH" ) + "/audio/" => string path;
+//Std.getenv( "CHUCK_AUDIO_PATH" ) + "/audio/" => string path;
+Std.getenv( "CHUCK_DATA_PATH" ) + "/audio/" => string path;
 
 8 => int NB_MAX_SAMPLES_PER_SEC;
 
