@@ -1,1 +1,2 @@
-*.wav
+# on va quand meme stocker les audios de la bank data ... c'est lourd mais bon ...
+#*.wav
