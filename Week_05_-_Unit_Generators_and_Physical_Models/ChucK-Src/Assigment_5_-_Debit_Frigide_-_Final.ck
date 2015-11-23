@@ -1009,7 +1009,7 @@ fun string find_audios_path()
 {
 	//
 	//me.dir() => string root_path; // local root path, work in miniAudicle application
-	"" => string root_path;
+	"" => strin groot_path;
 	if( root_path == "" )
 	{
 		// No definition path for me.dir()
@@ -1017,7 +1017,7 @@ fun string find_audios_path()
 		// we need a way to localise the path for audio file
 		// i'm using a environment variable 'CHUCK_AUDIO_PATH' to define a local path to find this files
 		//Std.getenv( "CHUCK_AUDIO_PATH" ) => root_path; // using setenv variable (Windows system)
-		Std.getenv( "CHUCK_DATA_PATH" ) => root_path; // using setenv variable (Windows system)
+		Std.getenv( "CHUCK_DATA_PATH" ) => root_path;
 	}
 	//
 	root_path + "/" + "audio/" => string result_path;
