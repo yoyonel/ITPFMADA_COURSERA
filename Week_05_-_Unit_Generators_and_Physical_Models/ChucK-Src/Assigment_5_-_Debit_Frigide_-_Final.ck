@@ -1009,7 +1009,7 @@ fun string find_audios_path()
 {
 	//
 	//me.dir() => string root_path; // local root path, work in miniAudicle application
-	"" => strin groot_path;
+	"" => string root_path;
 	if( root_path == "" )
 	{
 		// No definition path for me.dir()
